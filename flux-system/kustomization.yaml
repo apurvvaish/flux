@@ -3,3 +3,5 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
+- weather-microservice-pod.yaml
+- weather-microservice-source-git.yaml
