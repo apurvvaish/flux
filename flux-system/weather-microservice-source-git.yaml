@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: weather-microservice-helm
+  namespace: default
+spec:
+  interval: 1m
+  url: https://github.com/apurvvaish/weather-microservice-helm.git
+  ref:
+    branch: main
